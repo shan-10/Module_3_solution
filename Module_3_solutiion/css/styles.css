@@ -1,0 +1,79 @@
+body 
+{
+  font-size: 16px;
+  color: white;
+  background-color: gray;
+}
+h1, h3 {
+  text-align: center;
+}
+
+#header-nav 
+{
+  color: white;
+  background-color: black;
+  border-radius: 0;
+  border: 0;
+  color: white;
+  font-size: 20px;
+}
+
+.navbar-brand p 
+{
+  color: white;
+  font-size: 30px;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+  text-decoration: none;
+}
+
+#nav-list a 
+{
+  color: white;
+  text-align: center;
+}
+
+#nav-list a:hover 
+{
+  background-color: green;
+}
+
+#home 
+{
+  margin-bottom: 30px;
+}
+#back
+{
+  font-size: 25px;
+}
+
+.row 
+{
+  
+  position: relative;
+  float: left;
+}
+
+.row > div > article 
+{
+  background-color: darkgray;
+  text-align: justify;
+  margin-bottom: 20px;
+  padding: 12px;
+  color: black;
+}
+
+@media (max-width: 767px) 
+{
+  .row > div > article 
+  {
+    width: 80%;
+    margin: 20px auto 0;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: none;
+    }
+  }
